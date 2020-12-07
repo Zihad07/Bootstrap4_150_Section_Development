@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+}
+.alignleft  {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {outline: 0 solid;}
+
+img { width: 100%; height: auto;}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 15px;
+}
+
+.contact-form,
+.appointment-text
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+}
+
+input[type=] {
+    
+    
+}
+
+.contact-form input,.contact-form textarea {width: 100%;padding: 10px;margin-bottom: 10px;color: #333;}
+
+.contact-form input:focus, .contact-form texatarea:focus,.contact-form a:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 15px 30px;
+    background-color: #15c39a;
+    color: #fff;
+    font-size:18px;
+    font-weight:bold;
+}
